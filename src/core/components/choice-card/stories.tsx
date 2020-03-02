@@ -1,4 +1,5 @@
 import React from "react"
+import { css } from "@emotion/core"
 import { storybookBackgrounds } from "@guardian/src-helpers"
 import { ChoiceCardGroup, ChoiceCard, choiceCardDefault } from "./index"
 import { ThemeProvider } from "emotion-theming"
@@ -20,18 +21,24 @@ export default {
 	title: "ChoiceCard",
 }
 
-const defaultLight = () => (
+const narrow = css`
+	width: 20em;
+`
+
+const singleStateLight = () => (
 	<ThemeProvider theme={choiceCardDefault}>
-		<ChoiceCardGroup name="colours">
-			{choiceCards.map((choiceCard, index) =>
-				React.cloneElement(choiceCard, { key: index }),
-			)}
-		</ChoiceCardGroup>
+		<div css={narrow}>
+			<ChoiceCardGroup name="colours">
+				{choiceCards.map((choiceCard, index) =>
+					React.cloneElement(choiceCard, { key: index }),
+				)}
+			</ChoiceCardGroup>
+		</div>
 	</ThemeProvider>
 )
 
-defaultLight.story = {
-	name: `default light`,
+singleStateLight.story = {
+	name: `single state light`,
 	parameters: {
 		backgrounds: [
 			Object.assign({}, { default: true }, storybookBackgrounds.default),
@@ -58,4 +65,4 @@ defaultLight.story = {
 // 	},
 // }
 
-export { defaultLight }
+export { singleStateLight }
