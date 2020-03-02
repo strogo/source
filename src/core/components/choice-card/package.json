@@ -1,6 +1,6 @@
 {
 	"name": "@guardian/src-choice-card",
-	"version": "0.13.0-alpha.8",
+	"version": "0.13.0-alpha.9",
 	"main": "dist/choice-card.js",
 	"module": "dist/choice-card.esm.js",
 	"scripts": {
@@ -28,7 +28,7 @@
 	],
 	"peerDependencies": {
 		"@emotion/core": "^10.0.14",
-		"@guardian/src-foundations": "^0.13.0",
+		"@guardian/src-foundations": "^0.13.1",
 		"react": "^16.8.6"
 	}
 }
