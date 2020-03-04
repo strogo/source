@@ -1,6 +1,6 @@
 {
 	"name": "@guardian/src-text-input",
-	"version": "0.14.0",
+	"version": "0.14.1",
 	"main": "dist/text-input.js",
 	"module": "dist/text-input.esm.js",
 	"scripts": {
@@ -32,6 +32,6 @@
 	},
 	"dependencies": {
 		"@guardian/src-helpers": "^0.14.0",
-		"@guardian/src-inline-error": "^0.14.0"
+		"@guardian/src-inline-error": "^0.14.1"
 	}
 }
