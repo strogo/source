@@ -5,6 +5,12 @@
 > -   :boom: [Breaking Change]
 > -   :bug: [Bugfix]
 
+## 6th March 2020
+
+**`@guardian/src-foundations 0.14.2`**
+
+-   :nail_care: [6852446](https://github.com/guardian/source/pull/258/commits/68524467fb55585981dec4bcabe96943d7c0efd3) reduce vibrancy of choice card checked colour
+
 ## 4th March 2020
 
 **`@guardian/src-inline-error 0.14.1`**
