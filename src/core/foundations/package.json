@@ -21,6 +21,7 @@
 		"palette/*",
 		"themes/*",
 		"typography/*",
+		"utils/*",
 		"*.d.ts",
 		"foundations.esm.js",
 		"src/animation.ts",
